@@ -1,0 +1,146 @@
+body {
+  background: url('assets/hatter.jpg');
+  background-size: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  display: inline;
+  position: relative;
+}
+#help {
+  background-color: red;
+}
+#pozicio {
+  position: absolute;
+}
+.profilkartya {
+  width: 300px;
+  height: 500px;
+  position: relative;
+  top: -5vw;
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+.head {
+  width: 100%;
+  margin: 0 auto;
+}
+.profilkep {
+  right: 80px;
+  top: -13%;
+}
+.nev {
+  font-family: 'Dancing Script', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  width: 50%;
+  top: 5%;
+  right: 20%;
+}
+.nevalatt {
+  font-family: 'Dancing Script', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  top: 15%;
+  right: 40%;
+}
+.content {
+  font-family: 'Dancing Script', Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  width: 88%;
+  left: 7%;
+  top: 25%;
+}
+.kapcsolat {
+  width: 150px;
+  height: 50px;
+  border-radius: 30%;
+  background-color: rgba(91, 189, 34, 0.63);
+  bottom: -25px;
+  right: 75px;
+  box-shadow: hsla(0, 0%, 0%, .9) 10px 10px 80px;
+}
+.gomb {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 25px;
+  top: 20%;
+  left: 10%;
+
+}
+.ikonok {
+  width: 10%;
+  bottom: 400px;
+  right: 150px;
+  color: chartreuse;
+}
+img {
+  width: 120px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 1px;
+  background-color: #666;
+}
+@media (min-width: 768px) {
+  .profilkartya {
+    width: 500px;
+    height: 550px;
+  }
+  .profilkep {
+    right: 175px;
+    top: -60px;
+  }
+  .nev {
+    top: 5vw;
+    right: 7vw;
+  }
+  .nevalatt {
+    top: 5.5rem;
+    right: 13rem;
+  }
+  .kapcsolat {
+    bottom: -3vw;
+    right: 23vw;
+  }
+}
+@media (min-width: 1025px) {
+  .profilkartya {
+    width: 62.5rem;
+    height: 35rem;
+  }
+  .profilkep {
+    right: 24rem;
+    top: -7rem;
+  }
+  img {
+    width: 250px;
+    height: 250px;
+  }
+  .nev {
+    top: 8rem;
+    right: 5rem;
+  }
+  .nevalatt {
+    top: 12rem;
+    right: 31rem;
+  }
+  .content {
+    width: 45rem;
+    left: 12rem;
+    top: 15rem;
+    font-size: 2rem;
+  }
+  .kapcsolat {
+    bottom: -1.5rem;
+    right: 27rem;
+  }
+}
+
